@@ -1,6 +1,6 @@
 .lots {
   margin-top: 180px;
-  padding: 0 50px 0 25px;
+  padding-left: 23px;
 }
 
 .lots_heading {
@@ -27,7 +27,7 @@
 
 .lots_card-list-item {
   flex-direction: column;
-  min-width: 334px;
+  width: 334px;
   min-height: 596px;
   background-position: center;
   background-size: cover;
