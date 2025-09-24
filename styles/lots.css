@@ -1,0 +1,115 @@
+.lots {
+  margin-top: 180px;
+  padding: 0 50px 0 50px;
+}
+
+.lots_heading {
+  padding-top: 5px;
+  padding-left: 15px;
+  color: rgba(0, 0, 0, 1);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 40px;
+  font-style: Bold;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}
+
+.lots_card-list {
+  display: flex;
+  gap: 25px;
+  margin-top: 30px;
+  margin-left: -25px;
+  list-style-type: none;
+}
+
+.lots_card-list-item {
+  flex-direction: column;
+  min-width: 334px;
+  min-height: 596px;
+}
+
+.card-link {
+  display: block;
+  height: 100%;
+  text-decoration: none;
+}
+
+.card-link:link,
+.card-link:visited,
+.card-link:hover,
+.card-link:active,
+.card-link:focus {
+  text-decoration: none;
+}
+
+.card {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+
+.card_type_film {
+  background-image: url(/images/card-lot-01.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.card_type_book {
+  background-image: url(/images/card-lot-02.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.card_type_picture {
+  background-image: url(/images/card-lot-03.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.lots_card_heading {
+  position: relative;
+  z-index: 1;
+  padding: 48px 40px 0px 40px;
+  color: rgba(255, 255, 255, 1);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 22px;
+  font-style: Bold;
+  line-height: 120%;
+  text-decoration: underline;
+  text-decoration-color: #ffffff;
+  text-decoration-thickness: 0.8px;
+  text-underline-offset: 3px;
+  text-transform: uppercase;
+}
+
+.card_text {
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  margin-bottom: 48px;
+  padding: 0 40px 0 40px;
+  color: rgba(255, 255, 255, 1);
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: Regular;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align:left;
+}
+
+.lots_look-more-link {
+  display: flex;
+  margin: 32px 0 0 14px ;
+  color: rgba(0, 0, 0, 1);
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: Regular;
+  line-height: 100%;
+  text-decoration-thickness: 0.8px;
+  text-underline-offset: 5px;
+}
