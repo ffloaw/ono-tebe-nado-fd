@@ -1,13 +1,13 @@
 .lots {
   margin-top: 180px;
-  padding: 0 50px 0 50px;
+  padding: 0 50px 0 25px;
 }
 
 .lots_heading {
   padding-top: 5px;
-  padding-left: 15px;
+  padding-left: 40px;
   color: rgba(0, 0, 0, 1);
-  font-family: Raleway;
+  font-family: Raleway, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
   font-weight: 700;
   font-size: 40px;
   font-style: Bold;
@@ -20,7 +20,7 @@
   display: flex;
   gap: 25px;
   margin-top: 30px;
-  margin-left: -25px;
+  margin-right: 0px;
   list-style-type: none;
 }
 
@@ -28,6 +28,8 @@
   flex-direction: column;
   min-width: 334px;
   min-height: 596px;
+  background-position: center;
+  background-size: cover;
 }
 
 .card-link {
@@ -46,20 +48,18 @@
 
 .card {
   position: relative;
+  display: flex;
+  flex-direction: column;
   height: 100%;
-  overflow: hidden;
 }
 
 .card_type_film {
   background-image: url(/images/card-lot-01.jpg);
-  background-position: center;
-  background-size: cover;
+
 }
 
 .card_type_book {
   background-image: url(/images/card-lot-02.jpg);
-  background-position: center;
-  background-size: cover;
 }
 
 .card_type_picture {
@@ -71,9 +71,10 @@
 .lots_card_heading {
   position: relative;
   z-index: 1;
+  flex-grow: 1;
   padding: 48px 40px 0px 40px;
   color: rgba(255, 255, 255, 1);
-  font-family: Raleway;
+  font-family: Raleway, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
   font-weight: 700;
   font-size: 22px;
   font-style: Bold;
@@ -86,26 +87,24 @@
 }
 
 .card_text {
-  position: absolute;
-  bottom: 0;
+  position: relative;
   z-index: 1;
-  margin-bottom: 48px;
-  padding: 0 40px 0 40px;
+  padding: 0 40px 48px 40px;
   color: rgba(255, 255, 255, 1);
-  font-family: Raleway;
+  font-family: Raleway, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
   font-weight: 400;
   font-size: 20px;
   font-style: Regular;
   line-height: 120%;
   letter-spacing: 0%;
-  text-align:left;
+  text-align: left;
 }
 
 .lots_look-more-link {
   display: flex;
-  margin: 32px 0 0 14px ;
+  margin: 32px 0 0 40px ;
   color: rgba(0, 0, 0, 1);
-  font-family: Raleway;
+  font-family: Raleway, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
   font-weight: 400;
   font-size: 20px;
   font-style: Regular;
