@@ -7,7 +7,7 @@ header {
   padding: 0px 50px 0px 50px;
 }
 
-.menu_header { 
+.menu_header {
   display: flex;
   gap: 30px;
   margin-bottom: 4px;
