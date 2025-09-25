@@ -24,7 +24,7 @@
   font-family: Raleway, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
   font-weight: 700;
   font-size: 100px;
-  font-style: Bold;
+  font-style: normal;
   letter-spacing: 30px;
   text-transform: uppercase;
 }
@@ -58,19 +58,19 @@
   font-family: Raleway, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
   font-weight: 400;
   font-size: 22px;
-  font-style: Regular;
+  font-style: normal;
   line-height: 28px;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   text-transform: uppercase;
   word-spacing: 18.5px;
 }
 
 .bet-button {
   position: relative;
-  bottom: 42px;
-  left: 794px;
   z-index: 2;
   display: flex;
+  transform: translateY(-40px);
+  margin-left: 794px;
   justify-content: center;
   align-items: center;
   width: 256px;
@@ -81,9 +81,9 @@
   font-family: Raleway, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
   font-weight: 500;
   font-size: 22px;
-  font-style: Medium;
+  font-style: normal;
   line-height: 100%;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   text-transform: uppercase;
   background-color: transparent;
 }
