@@ -49,9 +49,15 @@
   transform: translateX(-20px);
 }
 
-.cover_description-text {
+.cover_description {
   position: relative;
   z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 50px;
+}
+
+.cover_description-text {
   margin-top: 118px;
   padding-left: 50px;
   color: rgba(255, 255, 255, 1);
@@ -66,15 +72,11 @@
 }
 
 .bet-button {
-  position: relative;
-  z-index: 2;
-  display: flex;
-  transform: translateY(-40px);
-  margin-left: 794px;
   justify-content: center;
   align-items: center;
   width: 256px;
   height: 51px;
+  margin-top: 106px;
   border: 1px solid;
   border-color: rgba(255, 255, 255, 1);
   color: rgba(255, 255, 255, 1);
